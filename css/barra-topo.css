@@ -1,0 +1,73 @@
+/* barra no topo com as redes sociais */
+/* barra de fundo */
+.navContainer {
+    width: 100%;
+    color: #FFF;
+    min-height: 35px;
+    max-height: 35px;
+    height: 35px;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    overflow: hidden;
+    clear: both;
+    box-sizing: border-box;
+}
+/* lista de itens */
+.navContainer .socialNav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: inherit;
+    width: 100%;
+}
+/* alinhamento dos elementos */
+.navContainer .socialNav li {
+    float: right;
+}
+/* os elementos que ficarão do lado esquerdo */
+.navContainer .socialNav li.left {
+    float: left;
+}
+/* cada link da barra */
+.navContainer .socialNav li a {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 25px;
+    color: #FFF;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+/* tamanho da fonte e espaçamento dos icones */
+.navContainer .socialNav li a i {
+    font-size: 16px;
+    padding: 0 8px;
+}
+/* animação no fundo de cada ícone */
+.navContainer .socialNav li.bgAnimated {
+    -webkit-transition: background 250ms linear;
+    -moz-transition: background 250ms linear;
+    -ms-transition: background 250ms linear;
+    -o-transition: background 250ms linear;
+    transition: background 250ms linear;
+}
+
+/* mudança de cor para cada rede social */
+.navContainer .socialNav li.social.facebook:hover { background-color: #3B5998; }
+.navContainer .socialNav li.social.twitter:hover { background-color: #5EA9DD; }
+.navContainer .socialNav li.social.youtube:hover { background-color: #D22827; }
+.navContainer .socialNav li.social.linkedin:hover { background-color: #0177B5; }
+.navContainer .socialNav li.social.instagram:hover { background-color: #5E4B45; }
+.navContainer .socialNav li.social.slideshare:hover { background-color: #00A7A9; }
+.navContainer .socialNav li.social.flickr:hover { background-color: #0062DD; }
+.navContainer .socialNav li.social.rss:hover { background-color: rgb(255, 102, 0); }
+
+/* mudança de cor nos primeiros dois links */
+.navContainer .socialNav li.home:hover { background-color: #BB0106; }
+.navContainer .socialNav li.text:hover { background-color: #CCC; }

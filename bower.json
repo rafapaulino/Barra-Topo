@@ -1,0 +1,23 @@
+{
+  "name": "barra-topo",
+  "homepage": "https://github.com/rafapaulino/Barra-Topo",
+  "description": "Barra para o topo dos meus sites",
+  "main": "",
+  "license": "MIT",
+  "keywords": [
+    "barra topo"
+  ],
+  "authors": [
+    "Rafael Paulino"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "fontawesome#4.7.0"
+  }
+}
