@@ -41,13 +41,30 @@
     line-height: 25px;
     color: #FFF;
     text-align: center;
-    padding: 5px 10px;
+    padding: 5px;
     text-decoration: none;
+}
+@media only screen and (min-width:768px) { 
+    /* cada link da barra */
+    .navContainer .socialNav li a {
+        padding: 5px 10px;
+    }
+}
+/* cada texto sem icone na barra */
+.navContainer .socialNav li.socialBrand {
+    display: none;
+}
+@media only screen and (min-width:568px) { 
+    /* cada texto sem icone na barra */
+    .navContainer .socialNav li.socialBrand {
+        display: block;
+    }
 }
 /* tamanho da fonte e espaçamento dos icones */
 .navContainer .socialNav li a i {
     font-size: 16px;
-    padding: 0 8px;
+    /* padding: 0 8px; */
+    padding: 0 4px;
 }
 /* animação no fundo de cada ícone */
 .navContainer .socialNav li.bgAnimated {
