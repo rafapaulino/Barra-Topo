@@ -88,3 +88,31 @@
 /* mudança de cor nos primeiros dois links */
 .navContainer .socialNav li.home:hover { background-color: #BB0106; }
 .navContainer .socialNav li.text:hover { background-color: #CCC; }
+
+
+/* cores diferentes para a barra */
+.navContainerRed {
+    background-color: #E30513;
+}
+.navContainerBlue {
+    background-color: #006699;
+}
+.navContainerGreen {
+    background-color: #008000;
+}
+.navContainerOrange {
+    background-color: #FF4500;
+}
+.navContainerMagenta {
+    background-color: #8B008B;
+}
+.navContainerYellow {
+    background-color: #FFFF00;
+    color: #000;
+}
+.navContainerYellow .socialNav li a {
+    color: #000;
+}
+.navContainerYellow .socialNav li.bgAnimated a:hover {
+    color: #FFF;
+}
