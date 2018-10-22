@@ -3,6 +3,7 @@
 Bar to the top of my sites.
 ## Features
 
+- `v1.0.4` I made the changes to the new accessibility rules.
 - `v1.0.3` CSS min added.
 - `v1.0.0` Creating the plugin.
 
