@@ -3,6 +3,7 @@
 Bar to the top of my sites.
 ## Features
 
+- `v1.0.6` Accessibility bar added.
 - `v1.0.5` CSS Min added.
 - `v1.0.4` I made the changes to the new accessibility rules.
 - `v1.0.3` CSS min added.

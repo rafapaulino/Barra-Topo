@@ -2,6 +2,39 @@ body {
     padding-top: 35px;
 }
 
+/* parte com a barra de acessibilidade */
+.acessibilidade {
+    list-style: none;
+    margin: 0;
+    width: 100%;
+    padding: 10px 0;
+    box-sizing: border-box;
+    font-size: 11px;
+    display: inline-block;
+}
+.acessibilidade li {
+    float: left;
+    margin: 0 12px 0 0;
+}
+.acessibilidade li:last-child,
+.acessibilidade li:nth-last-child(2) {
+    float: right;
+    margin: 0 0 0 12px;
+}
+.acessibilidade li a {
+    color: #333;
+    text-decoration: none;
+}
+.acessibilidade li a span {
+    background: #CCC;
+    color: #333;
+    padding: 0 3px;
+}
+.acessibilidade li:last-child a ,
+.acessibilidade li:nth-last-child(2) a {
+    border-bottom: 1px dotted #cccccc;
+}
+
 /* barra no topo com as redes sociais */
 /* barra de fundo */
 .navContainer {
