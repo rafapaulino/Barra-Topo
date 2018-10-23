@@ -3,35 +3,39 @@ body {
 }
 
 /* parte com a barra de acessibilidade */
-.acessibilidade {
+.acessibilidade ul {
     list-style: none;
     margin: 0;
-    width: 100%;
+    width: auto;
     padding: 10px 0;
     box-sizing: border-box;
     font-size: 11px;
     display: inline-block;
 }
-.acessibilidade li {
+.acessibilidade ul:first-of-type {
+    float: left;
+}
+.acessibilidade ul:last-of-type {
+    float: right;
+}
+.acessibilidade ul:first-of-type li {
     float: left;
     margin: 0 12px 0 0;
 }
-.acessibilidade li:last-child,
-.acessibilidade li:nth-last-child(2) {
-    float: right;
+.acessibilidade ul:last-of-type li {
+    float: left;
     margin: 0 0 0 12px;
 }
-.acessibilidade li a {
+.acessibilidade ul li a {
     color: #333;
     text-decoration: none;
 }
-.acessibilidade li a span {
+.acessibilidade ul li a span {
     background: #CCC;
     color: #333;
     padding: 0 3px;
 }
-.acessibilidade li:last-child a ,
-.acessibilidade li:nth-last-child(2) a {
+.acessibilidade ul:last-of-type li a {
     border-bottom: 1px dotted #cccccc;
 }
 
@@ -52,24 +56,21 @@ body {
     box-sizing: border-box;
     position: absolute;
     top: 0;
+    text-align: center;
 }
 /* lista de itens */
 .navContainer .socialNav {
     list-style: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     display: inline-block;
     overflow: hidden;
     box-sizing: border-box;
     height: inherit;
-    width: 100%;
+    width: auto;
 }
 /* alinhamento dos elementos */
 .navContainer .socialNav li {
-    float: right;
-}
-/* os elementos que ficarão do lado esquerdo */
-.navContainer .socialNav li.left {
     float: left;
 }
 /* cada link da barra */
@@ -90,24 +91,27 @@ body {
     }
 }
 /* itens com os ícones das redes sociais no celular */
-.navContainer .socialNav li.social:nth-child(0),
-.navContainer .socialNav li.social:nth-child(1),
-.navContainer .socialNav li.social:nth-child(2),
-.navContainer .socialNav li.social:nth-child(3),
-.navContainer .socialNav li.social:nth-child(4),
-.navContainer .socialNav li.social:nth-child(5) {
+.navContainer .socialNav li.social:nth-last-child(1),
+.navContainer .socialNav li.social:nth-last-child(2),
+.navContainer .socialNav li.social:nth-last-child(3),
+.navContainer .socialNav li.social:nth-last-child(4),
+.navContainer .socialNav li.social:nth-last-child(5) {
     display: none;
 }
 
 @media only screen and (min-width:568px) { 
     /* cada texto sem icone na barra */
-    .navContainer .socialNav li.social:nth-child(0),
-    .navContainer .socialNav li.social:nth-child(1),
-    .navContainer .socialNav li.social:nth-child(2),
-    .navContainer .socialNav li.social:nth-child(3),
-    .navContainer .socialNav li.social:nth-child(4),
-    .navContainer .socialNav li.social:nth-child(5) {
+    .navContainer .socialNav li.social:nth-last-child(1),
+    .navContainer .socialNav li.social:nth-last-child(2),
+    .navContainer .socialNav li.social:nth-last-child(3),
+    .navContainer .socialNav li.social:nth-last-child(4),
+    .navContainer .socialNav li.social:nth-last-child(5) {
         display: block;
+    }
+
+    .navContainer .socialNav {
+        margin: 0;
+        float: right;
     }
 }
 /* tamanho da fonte e espaçamento dos icones */
@@ -118,10 +122,6 @@ body {
 }
 /* animação no fundo de cada ícone */
 .navContainer .socialNav li.bgAnimated {
-    -webkit-transition: background 250ms linear;
-    -moz-transition: background 250ms linear;
-    -ms-transition: background 250ms linear;
-    -o-transition: background 250ms linear;
     transition: background 250ms linear;
 }
 
@@ -134,10 +134,6 @@ body {
 .navContainer .socialNav li.social.slideshare:hover { background-color: #00A7A9; }
 .navContainer .socialNav li.social.flickr:hover { background-color: #0062DD; }
 .navContainer .socialNav li.social.rss:hover { background-color: rgb(255, 102, 0); }
-
-/* mudança de cor nos primeiros dois links */
-.navContainer .socialNav li.home:hover { background-color: #BB0106; }
-.navContainer .socialNav li.text:hover { background-color: #CCC; }
 
 
 /* cores diferentes para a barra */

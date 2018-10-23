@@ -17,13 +17,15 @@
     <!-- acessibilidade -->
     <div class="container d-print-none d-none d-md-block">
         <div class="row">
-            <div class="col-sm-12">
-                <ul class="acessibilidade">
+            <div class="col-sm-12 acessibilidade">
+                <ul>
                     <li class="d-none"><a accesskey="0" title="Acesso a home do Site" href="/">Home</a></li>
                     <li><a accesskey="1" href="#conteudo" title="Clique aqui para ir para o conteúdo">Ir para o conteúdo <span>1</span></a></li>
                     <li><a accesskey="2" href="#menu" title="Clique aqui para ir para o menu">Ir para o menu <span>2</span></a></li>
                     <li><a accesskey="3" href="#busca" title="Clique aqui para ir para a caixa de busca">Ir para a busca <span>3</span></a></li>
                     <li><a accesskey="4" href="#rodape" title="Clique aqui para ir para o rodapé">Ir para o rodapé <span>4</span></a></li>
+                </ul>
+                <ul>    
                     <li><a accesskey="5" href="#" title="Clique aqui para a acessar a nossa documentação sobre Acessibilidade">Acessibilidade <span>5</span></a></li>
                     <li><a accesskey="6" href="#" id="contrast" title="Clique aqui para ativar o Alto Contraste">Alto Contraste <span>6</span></a></li>
                 </ul>
@@ -37,80 +39,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    
                     <ul class="socialNav">
-                        <!-- 
-                        <li class="left text bgAnimated">
-                            <a href="#content" accesskey="0" title="Ir para o Conteúdo">
-                                <i class="fa fa-thumb-tack" aria-hidden="true">
-                                    <span class="sr-only">Clique aqui para acessar o Conteúdo dessa página</span>
-                                </i>
-                            </a>
-                        </li>
-                        <li class="left home bgAnimated">
-                            <a href="index.html" accesskey="1" title="Home">
-                                <i class="fa fa-home" aria-hidden="true">
-                                    <span class="sr-only">Clique aqui para Ir para Home do site</span>
-                                </i>
-                            </a>
-                        </li>
-                        -->
-                        <li class="social rss bgAnimated">
-                            <a href="index.html" accesskey="r" title="RSS">
-                                <i class="fa fa-rss" aria-hidden="true">
-                                    <span class="sr-only">Clique aqui para acessar o RSS</span>
-                                </i>
-                            </a>
-                        </li>
-                        <li class="social flickr bgAnimated">
-                            <a href="index.html" accesskey="k" title="Flickr">
-                                <i class="fa fa-flickr" aria-hidden="true">
-                                    <span class="sr-only">Clique aqui para acessar o Flickr</span>
-                                </i>
-                            </a>
-                        </li>
-                        <li class="social slideshare bgAnimated">
-                            <a href="index.html" accesskey="s" title="Slideshare">
-                                <i class="fa fa-slideshare" aria-hidden="true">
-                                    <span class="sr-only">Clique aqui para acessar o Slideshare</span>
-                                </i>
-                            </a>
-                        </li>
-                        <li class="social instagram bgAnimated">
-                            <a href="index.html" accesskey="i" title="Instagram">
-                                <i class="fa fa-instagram" aria-hidden="true">
-                                    <span class="sr-only">Clique aqui para acessar o Instagram</span>
-                                </i>
-                            </a>
-                        </li>
-                        <li class="social linkedin bgAnimated">
-                            <a href="index.html" accesskey="l" title="Linkedin">
-                                <i class="fa fa-linkedin" aria-hidden="true">
-                                    <span class="sr-only">Clique aqui para acessar o Linkedin</span>
-                                </i>
-                            </a>
-                        </li>
-                        <li class="social youtube bgAnimated">
-                            <a href="index.html" accesskey="y" title="YouTube">
-                                <i class="fa fa-youtube" aria-hidden="true">
-                                    <span class="sr-only">Clique aqui para acessar o YouTube</span>
-                                </i>
-                            </a>
-                        </li>
-                        <li class="social twitter bgAnimated">
-                            <a href="index.html" accesskey="t" title="Twitter">
-                                <i class="fa fa-twitter" aria-hidden="true">
-                                    <span class="sr-only">Clique aqui para acessar o Twitter</span>
-                                </i>
-                            </a>
-                        </li>
-                        <li class="social facebook bgAnimated">
-                            <a href="index.html" accesskey="f" title="Facebook">
-                                <i class="fa fa-facebook" aria-hidden="true">
-                                    <span class="sr-only">Clique aqui para acessar o Facebook</span>
-                                </i>
-                            </a>
-                        </li>
                         <li class="socialBrand">
                             <a href="index.html" accesskey="5" title="SITE" target="_blank">
                                 SITE
@@ -135,9 +64,64 @@
                             <a href="index.html" accesskey="2" title="SITE" target="_blank">
                                 SITE
                             </a>
-                        </li>       
+                        </li>                          
+                        <li class="social facebook bgAnimated">
+                            <a href="index.html" accesskey="f" title="Facebook">
+                                <i class="fa fa-facebook" aria-hidden="true">
+                                    <span class="sr-only">Clique aqui para acessar o Facebook</span>
+                                </i>
+                            </a>
+                        </li>
+                        <li class="social youtube bgAnimated">
+                            <a href="index.html" accesskey="y" title="YouTube">
+                                <i class="fa fa-youtube" aria-hidden="true">
+                                    <span class="sr-only">Clique aqui para acessar o YouTube</span>
+                                </i>
+                            </a>
+                        </li>
+                        <li class="social twitter bgAnimated">
+                            <a href="index.html" accesskey="t" title="Twitter">
+                                <i class="fa fa-twitter" aria-hidden="true">
+                                    <span class="sr-only">Clique aqui para acessar o Twitter</span>
+                                </i>
+                            </a>
+                        </li>
+                        <li class="social linkedin bgAnimated">
+                            <a href="index.html" accesskey="l" title="Linkedin">
+                                <i class="fa fa-linkedin" aria-hidden="true">
+                                    <span class="sr-only">Clique aqui para acessar o Linkedin</span>
+                                </i>
+                            </a>
+                        </li>
+                        <li class="social slideshare bgAnimated">
+                            <a href="index.html" accesskey="s" title="Slideshare">
+                                <i class="fa fa-slideshare" aria-hidden="true">
+                                    <span class="sr-only">Clique aqui para acessar o Slideshare</span>
+                                </i>
+                            </a>
+                        </li>
+                        <li class="social flickr bgAnimated">
+                            <a href="index.html" accesskey="k" title="Flickr">
+                                <i class="fa fa-flickr" aria-hidden="true">
+                                    <span class="sr-only">Clique aqui para acessar o Flickr</span>
+                                </i>
+                            </a>
+                        </li>
+                        <li class="social instagram bgAnimated">
+                            <a href="index.html" accesskey="i" title="Instagram">
+                                <i class="fa fa-instagram" aria-hidden="true">
+                                    <span class="sr-only">Clique aqui para acessar o Instagram</span>
+                                </i>
+                            </a>
+                        </li>
+                        <li class="social rss bgAnimated">
+                            <a href="index.html" accesskey="r" title="RSS">
+                                <i class="fa fa-rss" aria-hidden="true">
+                                    <span class="sr-only">Clique aqui para acessar o RSS</span>
+                                </i>
+                            </a>
+                        </li>
                     </ul>
-
                 </div>
             </div>
         </div>

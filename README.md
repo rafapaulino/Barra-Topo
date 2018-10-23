@@ -3,6 +3,7 @@
 Bar to the top of my sites.
 ## Features
 
+- `v1.0.8` Fixing html and css for accessibility requirements.
 - `v1.0.7` Mobile corrections.
 - `v1.0.6` Accessibility bar added.
 - `v1.0.5` CSS Min added.
