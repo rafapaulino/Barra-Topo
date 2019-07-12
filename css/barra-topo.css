@@ -2,6 +2,9 @@ body {
     padding-top: 35px;
 }
 
+.d-none {
+    display: none !important;
+}
 /* parte com a barra de acessibilidade */
 .acessibilidade ul {
     list-style: none;
